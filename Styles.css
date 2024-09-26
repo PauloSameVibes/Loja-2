@@ -1,0 +1,158 @@
+:root {
+    --branco-principal: #000000;
+    --cinza-secundario: #000000;
+    --botão-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+
+
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    background-image: url("img/Tanjiro.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button {
+    background-color: rgb(90, 24, 31);
+    font-family: "Sofadi One", system-ui;
+    color: rgb(214, 214, 214);
+}
+
+.passo {
+    display: none;
+
+}
+
+.primeiro_ativo {
+
+    text-align: center;
+
+}
+
+.main {
+
+    text-align: center;
+    max-width: 90%;
+    size: 50px;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+
+    max-height: 10%;
+    padding-left: 4%;
+    align-items: center;
+    text-align: center;
+}
+
+.secundario {
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    max-height: 10%;
+    padding-left: 4%;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+}
+
+.container_botao {
+    background-color: rgb(227, 91, 41);
+    border-radius: 5px;
+    padding: 0.5em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+}
+
+.container_botao_azul {
+    background-color: rgb(15, 11, 250);
+    border-radius: 5px;
+    padding: 0.5em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+}
+
+.container_botao_vermelho {
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    padding: 0.5em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+}
+
+.dois {
+    margin-top: 10px;
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container_aviso {
+    font-size: 12px;
+    padding-top: 10px;
+
+    color: var(--cinza-secundario);
+    border-bottom: solid 2px rgb(195, 77, 97);
+}
+
+.primeiro_titulo {
+    color: rgb(195, 77, 97);
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+
+.container_titulo {
+
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+img {
+    height: 200px;
+}
+
+.container_caixa {
+
+    margin: 6%;
+}
+
+.video_um {
+    display: flex;
+
+    gap: 15px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+
+    color: rgb(242, 255, 1);
+
+
+}
